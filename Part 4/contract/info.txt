@@ -1,0 +1,5 @@
+npm run deploy-truffle
+
+contract address = 0x0e44Cb66f6f0FA27Ed4D2B5521e5b7f20e02Ed6b
+
+npm run verify 0x0e44Cb66f6f0FA27Ed4D2B5521e5b7f20e02Ed6b

@@ -1,0 +1,6 @@
+Odul tokeni kontrat adresi:  0xBA0969B3892A26a078f864B831E96e62147eddC2
+DexLestonz kontrat addresi:  0x45BEd45f3D82Cb44ce93ebc2ccfb0474F3fc2421
+
+npx hardhat verify 0xBA0969B3892A26a078f864B831E96e62147eddC2 --network truffle --contract contracts/LestonzToken.sol:LestonzToken 
+
+npx hardhat verify 0x45BEd45f3D82Cb44ce93ebc2ccfb0474F3fc2421 --network truffle --contract contracts/DexLestonz.sol:DexLestonz --constructor-args config/KontratArg.ts

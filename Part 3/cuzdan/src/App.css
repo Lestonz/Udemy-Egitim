@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-container {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 400px;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.input-container {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 200px;
+}
